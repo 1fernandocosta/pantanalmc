@@ -1,0 +1,4 @@
+Os dados mais importantes
+Profundidade de corte máx.	63,5 mm
+Peso incl. acumulador	3,8 kg
+Tensão da bateria	18 V

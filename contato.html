@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="favicon.gif" type="image/gif" />
+<link rel="stylesheet" href="./src/css/style.css">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+<title>Contato</title>
+
+	  <script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+      </script>
+
+</head>
+
+<body>
+<div id="box_contato_geral">
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" align="left" valign="top">
+    <div id="box_contatos_contato">
+      <div id="titulo_contatos_contato">
+      <p>Entre em contato conosco agora mesmo.</p>
+      <h1>Através de fax, telefone ou email.</h1>
+<br />
+      </div><!--div id /titulo_contatos_contato-->
+
+        <div id="telefones_contatos_contato">
+          Fone/Fax: (75) 3274-1239<br />
+Cel.: (75) 9112-6147</div><!--div id /telefones_contatos_contato-->
+        <div id="emails_contatos_contato">
+        e-mail: pantanalc@bol.com.br<br />
+        </div><!--div id /emails_contatos_contato-->
+    </div><!--div id /box_contatos_contato-->
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top">
+      <div id="contato">
+ <br />       <p>Se preferir envie-nos um email através do<br />
+formulário abaixo.</p>
+      <h1>Você pode consultar também disponibilidade de produtos<br />
+ou maiores
+        detalhes.<br />
+      </h1></div><!--/contato-->
+	<br />
+   </td>
+    </tr>
+  <tr>
+    <td align="center" valign="top">
+      <form name="senddata" method="post" action="form.php">
+        <table width="369" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="369" align="center" valign="top"><table width="377" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="476" align="center" valign="top"><span class="duvidas_elogios_sugestoes"> Dúvidas, elogios, sugestões...</span>
+                  <table width="370" border="0" cellpadding="2" cellspacing="2">
+                    <tr>
+                      <td align="right" valign="middle" class="tahoma-02-cinza"><div align="right"><div id="nome_contato">Nome:</div><!--div id /nome_contato--></div></td>
+                      <td align="left" valign="middle"><b><i><font size="1" face="Verdana" color="#FFFFFF">
+                        <input name="nome" type="text" class="fomu" onblur="MM_popupMsg('Todos os campos são de preenchimento obrigatório!!!   \rPara que possamos entrar em contato, preencha corretamente.   \r\r\r  *Nome:\r  *Email:\r  *Telefone:\r  *Cidade:\r  *Assunto:\r  *Mensagem:')" size="38"
+          placeholder="Nome completo"/>
+                        </font></i></b></td>
+                      </tr>
+                    <tr>
+                      <td align="right" valign="middle" class="tahoma-02-cinza"><div align="right"><div id="email_contato">E-mail:</div><!--div id /email contato--></div></td>
+                      <td align="left" valign="middle"><b><i><font size="1" face="Verdana" color="#FFFFFF">
+                        <input name="email" type="text" class="fomu" size="38" 
+           placeholder="Ex.: admin@admin.com.br"/>
+                        </font></i></b></td>
+                      </tr>
+                    <tr>
+                      <td align="right" valign="middle" class="tahoma-02-cinza"><div align="right"><div id="telefone_contato">Telefone:</div><!--div id /telefone_contato--></div></td>
+                      <td align="left" valign="middle"><b><i><font size="1" face="Verdana" color="#FFFFFF">
+                        <input name="telefone" type="text" class="fomu" id="telefone2" size="38"           placeholder="Ex.: (11) 1234-5678"/>
+                        </font></i></b></td>
+                      </tr>
+                    <tr>
+                      <td align="right" valign="middle" class="tahoma-02-cinza"><div align="right"><div id="cidade_contato">Cidade:</div><!--div id /cidade_contato--></div></td>
+                      <td align="left" valign="middle"><b><i><b><i><font size="1" face="Verdana" color="#FFFFFF; color:#C40000">
+                        <input name="cidade" type="text" class="fomu" size="38" 
+           placeholder="Ex.: São Paulo-SP"/>
+                        </font></i></b></i></b></td>
+                      </tr>
+                    <tr>
+                      <td align="right" valign="middle" class="tahoma-02-cinza"><div align="right"><div id="mensagem_contato">Mensagem:</div><!--div id /mensagem_contato--></div></td>
+                      <td align="left" valign="middle"><b><i><font size="1" face="Verdana" color="#FFFFFF">
+                        <textarea name="textodamensagem" cols="29" rows="7" class="fomu" 
+            placeholder = "O Senhor é o meu pastor,  nada me faltará...  Salmo 23:1"
+                  ></textarea>
+                        </font></i></b></td>
+                      </tr>
+                    <tr>
+                      <td align="left" valign="middle"></td>
+                      <td align="left" valign="middle"><input name="enviar" type="submit" class="formcop" value="Enviar Mensagem"/></td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table></td>
+            </tr>
+          </table>
+      </form></td>
+    <td align="center" valign="top">&nbsp;</td>
+    </tr>
+</table>
+</div><!--div id /box_contato_geral-->
+</body>
+</html>

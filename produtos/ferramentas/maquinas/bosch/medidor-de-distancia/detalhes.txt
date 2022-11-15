@@ -1,0 +1,4 @@
+Os dados mais importantes
+Amplitude de medição	0,05 – 50 m
+Precisão da medição, modelo	± 1,5 mm 
+Tempo de medição, médio	< 0,5 seg

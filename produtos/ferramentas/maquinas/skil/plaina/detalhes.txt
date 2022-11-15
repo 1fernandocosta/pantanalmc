@@ -1,0 +1,6 @@
+Potência: 550 watts
+Potência: Rotação: 16000 min-1
+Largura de corte: 82 mm
+Profundidade de aplainagem: 0 - 1,5 mm
+Profundidade de rebaixo: 0 - 8 mm
+Peso: 3,0 Kg

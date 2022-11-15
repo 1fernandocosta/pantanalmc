@@ -1,0 +1,4 @@
+Os dados mais importantes
+Potência nominal absorvida	670 W
+Profundidade de corte em madeira	80 mm
+Profundidade de corte em alumínio	25 mm

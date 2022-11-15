@@ -1,0 +1,4 @@
+Os dados mais importantes
+Potência nominal absorvida	2.200 W
+Ø da lâmina da serra	235 mm
+Profundidade de corte (90°)	85 mm

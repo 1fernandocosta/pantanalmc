@@ -1,0 +1,4 @@
+Os dados mais importantes
+Potência nominal absorvida	1.400 W
+Rotações em vazio	750 – 3.000 r.p.m.
+Mó cerâmica, Ø	180 mm

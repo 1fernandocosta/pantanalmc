@@ -1,0 +1,48 @@
+body{margin:0; padding:0;}
+
+#vlightbox3 {
+	width:100%;
+	zoom:1;	
+	margin:0;
+	padding:0;
+	float:left;
+	border-left:2px solid #FFF;
+}
+#vlightbox3 .vlightbox3 {
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+	vertical-align:top;
+	margin:0;
+	width:38px;
+	font-family:Trebuchet,Tahoma,Arial,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	opacity:0.87;
+}
+#vlightbox3 .vlightbox3 a{
+	margin:0;
+}
+#vlightbox3 .vlightbox3:hover, #vlightbox3 .vlightbox3 a:hover{
+	opacity:1;
+}
+.vlightbox3 img{
+	display:block;
+	border:2px solid #FFF;;
+	margin:0;
+	padding:0;
+}
+
+.vlightbox3 img:hover{
+	display:block;
+	border:2px solid #78FF0A;
+	margin:0;
+	padding:0;
+}
+
+#vlightbox3 .vlightbox3 div {display:none}
+

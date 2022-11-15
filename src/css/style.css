@@ -1,0 +1,493 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0 auto 0; padding:0;}
+
+#box_site_geral {
+    margin:0 auto; 
+    padding:0; 
+    width:1000px; 
+    height:500px;}
+
+/*TOPO DO SITE*/
+#box_topo_site_index{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    width:1000px; 
+    height:214px; 
+    border-bottom:3px solid #FFF; 
+    background:url(../imagens/topo3.jpg) no-repeat top center;
+}
+
+/*MENU SUPERIOR*/
+#box_menu_site_index{
+    margin:0 auto; 
+    padding:0; 
+    float:left; 
+    width:1000px;}
+
+/*MENU 1 SUPERIOR*/
+#menu_site_index1{
+    margin:0 0 2px 0; 
+    padding:0; 
+    float:left; 
+    width:998px; 
+    height:23px; 
+    border:1px solid #000; 
+    background-color:#7FFF00; 
+    -moz-border-radius: 3px; /* Para Firefox */-webkit-border-radius: 3px; /*Para Safari e Chrome */border-radius: 3px; /* Para Opera 10.5+*/ 
+}
+
+.menu1_topo_site_index {
+    margin:0px 0 0px 27px; 
+    padding:0; 
+    float:left;
+}
+
+.menu2_topo_site_index {
+    margin:0px 0 0px 38px; 
+    padding:0; 
+    float:left;
+}
+
+#menu_site_index1 ul li{
+    margin:0; 
+    padding:4px 10px 5px 10px; 
+    display:inline; 
+    float:left; 
+    text-align:center; 
+    border-right:2px solid #000;
+}
+
+#menu_site_index1 a{
+    margin:0; padding:0; 
+    float:left; 
+    text-decoration:none; 
+    font:12px Verdana, Geneva, sans-serif; color:#000; font-weight:bold;
+}
+
+#menu_site_index1 a:hover{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    text-decoration:underline;
+}
+
+#menu_site_index1 ul li:hover {
+    margin:0; 
+    padding:3px 10px 6px 10px; 
+    display:inline; 
+    float:left; 
+    text-align:center; 
+    border-right:2px solid #000; 
+    background:url(../imagens/bg_menu_hover.jpg) repeat-x bottom left;
+}
+
+#menu_site_index1 .final_menu_superior{
+    margin:0; 
+    padding:4px 10px 5px 10px; 
+    border-right:0; 
+    float:left;
+}
+
+#menu_site_index1 .final_menu_superior:hover{
+    margin:0; 
+    padding:3px 10px 6px 10px; 
+    display:inline; 
+    float:left; 
+    text-align:center; 
+    border-right:0; background:url(../imagens/bg_menu_hover.jpg) repeat-x bottom left;}
+
+/*MENU LEFT*/
+#box_menu_left{margin:0 0 5px 0; padding:0; float:left; width:1000px; height:214px; }
+
+#content_menu_left{
+    margin:190px 0 0 0; 
+    padding:0; float:left;
+}
+
+#content_menu_left ul{
+    margin:0; 
+    padding:0; 
+    display:inline;
+}
+
+#content_menu_left ul li{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    display:inline; 
+    border:1px solid #000; 
+    background:#7FFF00;
+}
+
+#content_menu_left ul li:hover{
+    background:url(../imagens/bg_menu_hover.jpg) bottom left repeat-x;
+}
+
+#content_menu_left a{
+    margin:0 5px; 
+    padding:2px 5px; 
+    text-decoration:none; 
+    float:left; 
+    border-bottom:0px solid #666; 
+    font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#000; 
+    font-weight:bold;
+}
+
+#content_menu_left a:hover{
+    text-decoration:underline;
+}
+
+/*SIDEBAR LEFT*/
+#box_sidebar_left{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    width:156px; 
+    border:1px solid #FFF;
+}
+
+#content_sidebar_left{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    border-top:2px solid #666;
+}
+
+#content_sidebar_left img{
+    margin:0; 
+    padding:3px; 
+    float:left; 
+    border:0; 
+    border-bottom:2px solid #666;
+}
+
+#content_sidebar_left img:hover{
+    margin:0; 
+    padding:3px; 
+    float:left; 
+    border:0; 
+    border-bottom:2px solid #060; 
+    background:#78FF0A;
+}
+
+/*BANNER*/
+#box_banner_index_site{
+    margin:2px 0 0 5px; 
+    padding:0; 
+    float:left; 
+    width:837px; 
+    height:221px; 
+    background:url(../imagens/bg_banner.jpg) repeat-x top left;
+}
+
+#content_banner_index_site{
+    margin:0; 
+    padding:0; 
+    float:left;
+}
+
+#cu3er-container {
+    width:837px; 
+    outline:0;
+}
+
+/*INÍCIO*/
+#box_include_inicio_site{
+    margin:0 0 0 5px; 
+    padding:0; 
+    float:left; 
+    width:837px;
+}
+
+#box_largura_paginas_site{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    width:837px;
+}
+
+/*PRODUTOS*/
+#box1_produtos_site{
+    margin:0; 
+    padding:0; 
+    float:none; 
+    display:block; 
+    width:275px;
+}
+
+#box1-2_produtos_site{
+    margin:3px 0 0 0; 
+    padding:2px 0 0 0; 
+    float:left; 
+    display:block; 
+    width:275px; 
+    border-top:5px solid #FFF; 
+    border-bottom:5px solid #FFF;
+}
+
+#box2_produtos_site{
+    margin:3px 0 0 6px; 
+    padding:2px 0 0 0; 
+    float:left; 
+    width:275px; 
+    border-top:5px solid #FFF; 
+    border-bottom:5px solid #FFF;
+}
+
+#box3_produtos_site{
+    margin:3px 0 0 6px; 
+    padding:2px 0 0 0; 
+    float:inherit; 
+    width:275px; 
+    border-top:5px solid #FFF; 
+    border-bottom:5px solid #FFF;
+}
+
+.img_produtos{
+    margin:0; 
+    padding:0 5px 0 0; 
+    float:left;
+}
+
+.img_produtos img{
+    margin:0; 
+    padding:2px; 
+    float:left; 
+    border:1px solid #CCC;
+}
+
+.img_produtos img:hover{
+    background:#7FFF00;
+}
+
+#box_descricao_produtos_site{
+    margin:0; 
+    padding:0; 
+    width:272px; 
+    float:left;
+}
+
+.titulo_produtos{
+    width:272px; 
+    margin:0 0 3px 0; 
+    padding:0; 
+    text-align:left; 
+    font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    color:#666; 
+    font-weight:bold; 
+    float:none; 
+    display:block; 
+    text-transform:uppercase;}
+
+.descricao_produtos{
+    width:272px; 
+    margin:0; 
+    padding:0 3px 0 0; 
+    text-align:left; 
+    font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    color:#666; 
+    float:none; 
+    display:block;
+}
+
+#box1-2_produtos_site:hover, #box2_produtos_site:hover, #box3_produtos_site:hover{
+    background:url(../imagens/bg_produtos.jpg) repeat-y top right;
+}
+
+/*RODAPÉ*/
+#box_rodape_site{
+    margin:5px 0 0 0; 
+    padding:0; 
+    float:left; 
+    background:url(../imagens/bg_rodape.jpg) repeat-x top left; 
+    width:1000px; 
+    height:192px; 
+    text-align:center;
+}
+
+#content_rodape_site{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    width:1000px; 
+    height:192px;
+}
+
+/*MAIS BUSCADOS*/
+#content_rodape_site h1{
+    margin:12px 0 0 8px; 
+    padding:0; 
+    float:left; 
+    font:16px Verdana, Geneva, sans-serif; 
+    color:#000066; 
+    font-weight:bold; 
+    font-style:italic;
+}
+
+#content_rodape_site ul{
+    margin:0; 
+    padding:0 15px 0 15px; 
+    float:left; 
+    width:970px; 
+    height:153px;
+}
+
+#content_rodape_site ul li{
+    margin:10px 10px; 
+    padding:0 5px; 
+    display:inline; 
+    text-align:center; 
+    float:right; 
+    text-align:center;
+}
+
+#content_rodape_site ul li a{
+    margin:0; 
+    padding:0; 
+    float:left; 
+    text-decoration:none; 
+    font:12px Verdana, Geneva, sans-serif; color:#D90000; 
+    font-weight:bold;
+}
+
+#content_rodape_site ul li a:hover{
+    text-decoration:underline;
+}
+
+#content_rodape_site h2{
+    margin:-13px 0 0 0; 
+    padding:0; 
+    float:left; 
+    font:12px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    color:#000; 
+    text-align:center; 
+    width:1000px;
+}
+
+#content_rodape_site h2 a{
+    text-decoration:underline; 
+    color:#000;
+}
+
+#content_rodape_site h2 a:hover{
+    text-decoration:none; 
+    color:#666;
+}
+
+/*
+.menu_rodape_fechaduras
+.menu_rodape_pedra
+.menu_rodape_telha
+.menu_rodape_tinta
+.menu_rodape_piso
+.menu_rodape_aquecedor
+.menu_rodape_ferro
+.menu_rodape_piso_laminado
+.menu_rodape_fio
+.menu_rodape_tomadas
+.menu_rodape_torneiras
+.menu_rodape_forro
+.menu_rodape_areia
+.menu_rodape_argamassa
+.menu_rodape_forro-pvc
+.menu_rodape_porcelanamento
+.menu_rodape_torneiras elétricas
+.menu_rodape_furadeira
+.menu_rodape_portas
+.menu_rodape_parteleiras
+.menu_rodape_interruptor
+.menu_rodape_caixa-d-agua
+.menu_rodape_janela
+.menu_rodape_varal
+.menu_rodape_vaso sanitarios
+.menu_rodape_pregos
+.menu_rodape_cal
+.menu_rodape_ceramica
+.menu_rodape_lampada
+.menu_rodape_registros
+.menu_rodape_ventilador
+.menu_rodape_chuveiros
+.menu_rodape_luminarias
+.menu_rodape_cuba
+.menu_rodape_rejuntes
+.menu_rodape_mangueira
+.menu_rodape_verniz
+.menu_rodape_rodape
+.menu_rodape_espelho
+.menu_rodape_massa-corrida
+.menu_rodape_sifao
+.menu_rodape_eternit
+.menu_rodape_suporte
+*/
+
+/*CONTATO*/
+#box_contatos_contato{
+    margin:25px 0 0 0; 
+    padding:0; 
+    float:left; 
+    width:700px;
+}
+
+#titulo_contatos_contato{
+    margin:0; 
+    padding:0; 
+    font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#titulo_contatos_contato p{
+    margin:0; 
+    padding:0;
+}
+
+#titulo_contatos_contato h1{
+    margin:0; 
+    padding:0; 
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#telefones_contatos_contato, #emails_contatos_contato, #contatos_contato{
+    margin:0; 
+    padding:0; 
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#contato p{
+    margin:0; 
+    padding:20px 0 0 0; 
+    font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-weight:bold;
+}
+
+#contato h1{
+    margin:0; 
+    padding:0; 
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.duvidas_elogios_sugestoes{
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    text-align:center; 
+    font-weight:bold;
+}
+
+#email_contato, #nome_contato, #telefone_contato, #cidade_contato, #mensagem_contato{
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin:0; 
+    padding:0;
+}
+
+#box_contato_geral{
+    float:left; 
+    margin:25px 0 50px 30px; 
+    padding:0;
+}
+
+/*LOCALIZAÇÃO*/
+#box_localizacao{
+    margin:50px 0 50px 100px; 
+    padding:0; 
+    float:left;
+}

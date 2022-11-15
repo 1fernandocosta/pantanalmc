@@ -1,0 +1,4 @@
+Os dados mais importantes
+Potência nominal absorvida	1.500 W
+Rotações em vazio	2.800 – 11.500 r.p.m.
+Ø do disco	125 mm

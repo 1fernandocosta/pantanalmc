@@ -1,0 +1,15 @@
+- Tecnologia de medição laser com resultados precisos e con?áveis.
+- Leve e compacto, possui Display LCD de fácil leitura.
+- Calcula comprimento, superfície e volume em ambientes internos e externos.
+- Atinge até mesmo pequenas superfícies.
+- Função de memória: medidas podem ser armazenadas, adicionadas ou subtraídas, desde que sejam de uma mesma unidade de medida (m, m2, m3, e FT).
+- Apresenta resultados em metros ou pés.
+- Indicador de nível da bateria.
+- Rápido, preciso e compacto.
+Especificações Técnicas
+Tipo de Laser: 650 Nm
+Classe de Laser: 2
+Alcance: 0,2 - 20 m
+Peso: 0,18 kg
+Potência máx. de saída: < 1 mW
+Precisão: +/- 3 mm /m
