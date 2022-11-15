@@ -180,7 +180,7 @@ body{margin:0 auto 0; padding:0;}
     float:left; 
     width:837px; 
     height:221px; 
-    background:url(../imagens/bg_banner.jpg) repeat-x top left;
+    /* background:url(../imagens/bg_banner.jpg) repeat-x top left; */
 }
 
 #content_banner_index_site{
@@ -189,10 +189,10 @@ body{margin:0 auto 0; padding:0;}
     float:left;
 }
 
-#cu3er-container {
-    width:837px; 
-    outline:0;
+.slider-principal{
+    width: 837PX;
 }
+
 
 /*INÍCIO*/
 #box_include_inicio_site{
